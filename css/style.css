@@ -50,11 +50,8 @@ body{
 	line-height: 1.5;
 }
 
-/*Test pr développement*/
-.test{
-	margin-bottom: 400px;
 
-}
+
 /*Header */
 header{
 	height: auto;
@@ -76,6 +73,7 @@ header .logo h2{
 	color: white;
 	padding: 10px;
 	margin-left: -20px;
+	margin-top: -10px;
 }
 
 header nav .nav-list{
@@ -88,7 +86,7 @@ header nav .nav-list{
 header nav .nav-list .list a{
 	display: block;
 	padding: 15px 0;
-	margin: 9px 0;
+	margin: -5px 0;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 	color: white;
@@ -101,11 +99,13 @@ header nav .nav-list .list a:hover{
 .sticky{
 	background: black;
 	color: white;
+	height: 60px;
 }
 
 @media (max-width: 575px){
 	header{
 		background: black;
+		height: 60px;
 	}
 	header nav .nav-list{
 		display: none;
@@ -123,11 +123,12 @@ header nav .nav-list .list a:hover{
 	}
 	
 	.about .about-info h3{
-	text-align: center;
-}
+		text-align: center;
 }
 
-@media (max-width: 991px){
+}
+
+@media (max-width: 992px){
 	.section-header p{
 		width: 85%;
 	}
@@ -137,6 +138,25 @@ header nav .nav-list .list a:hover{
 	.about .about-info{
 		text-align: center;
 	}
+	header nav .nav-list{
+		text-align: center;
+		margin-top: -60px;
+	}
+	.home-content .button{
+		padding: 20px 20px;
+	}
+	.home .button{
+		padding: 20px 0;
+	}
+
+
+}
+@media (min-width: 650px) and (max-width: 767px){
+	
+	.logo{
+		margin-left: -40px;
+	}
+
 }
 
 
@@ -251,3 +271,5 @@ header nav .nav-list .list a:hover{
 	color: #888;
 	margin-bottom: 20px;
 }
+
+/*--FOOTER--*/

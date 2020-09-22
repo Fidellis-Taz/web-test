@@ -50,11 +50,8 @@ body{
 	line-height: 1.5;
 }
 
-/*Test pr développement*/
-.test{
-	margin-bottom: 400px;
 
-}
+
 /*Header */
 header{
 	height: auto;
@@ -147,6 +144,9 @@ header nav .nav-list .list a:hover{
 	}
 	.home-content .button{
 		padding: 20px 20px;
+	}
+	.home .button{
+		padding: 20px 0;
 	}
 
 
@@ -271,3 +271,5 @@ header nav .nav-list .list a:hover{
 	color: #888;
 	margin-bottom: 20px;
 }
+
+/*--FOOTER--*/

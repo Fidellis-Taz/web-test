@@ -144,7 +144,7 @@ header nav .nav-list .list a:hover{
 		margin-top: -60px;
 	}
 	.home-content .button{
-		display: inline-block;
+		margin: 10px 0px;
 		padding: 50px 0px;
 		 
 	}
@@ -197,7 +197,8 @@ header nav .nav-list .list a:hover{
 	width: 150px;
 	text-align: center;
 	padding: 10px 0;
-	margin: 0 20px;
+	/*i adjusted the margin from 0 to 10px */
+	margin: 10px 20px;
 
 }
 

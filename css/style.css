@@ -102,7 +102,7 @@ header nav .nav-list .list a:hover{
 	height: 60px;
 }
 
-@media (max-width: 575px){
+@media only screen and (max-width: 575px){
 	header{
 		background: black;
 		height: 60px;
@@ -128,13 +128,14 @@ header nav .nav-list .list a:hover{
 
 }
 
-@media (max-width: 992px){
+@media only screen and (max-width: 992px){
 	.section-header p{
 		width: 85%;
 	}
 }
+ /*and (max-width: 768px)*/
 
-@media (min-width: 376px) and (max-width: 768px){
+@media only screen and (max-width: 756px)   {
 	.about .about-info{
 		text-align: center;
 	}
@@ -143,15 +144,17 @@ header nav .nav-list .list a:hover{
 		margin-top: -60px;
 	}
 	.home-content .button{
-		padding: 20px 20px;
+		display: inline-block;
+		padding: 50px 0px;
+		 
 	}
-	.home .button{
+	/*.home .button{
 		padding: 20px 0;
-	}
+	}*/
 
 
 }
-@media (min-width: 650px) and (max-width: 767px){
+@media only screen and (min-width: 650px) and (max-width: 767px){
 	
 	.logo{
 		margin-left: -40px;
